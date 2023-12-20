@@ -40,8 +40,11 @@ Output
 
 ### Newton
 Input: A, b, c, mu, p, K
+
 Output: p
+
 This function is called inside of dual_barrier()
+
 
 Note that Simplex method is mathematically simpler while computationally more complicated than Short Step Dual Barrier method. 
 
