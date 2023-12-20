@@ -48,7 +48,7 @@ This function is called inside of dual_barrier()
 
 Note that Simplex method is mathematically simpler while computationally more complicated than Short Step Dual Barrier method. 
 
-Also, note that Short Step Dual Barrier method is faster in Large LPs, but should switch to Simplex when we resolve the LP. 
+Also, note that Short Step Dual Barrier method is faster in large LPs, but should switch to Simplex when we resolve the LP. 
 On the other hand, Simplex method is faster in small LPs, and it is easy to update solution, but it is sensitive to degeneracy. 
 
-It is recommended that find initial solution using simplex, and with that initial solution, go to Short Step Dual Barrier, fininally switch to Simplex again if we need to resolve. 
+It is recommended that find initial solution using Simplex, and with that initial solution, go to Short Step Dual Barrier, fininally switch to Simplex again if we need to resolve. 
